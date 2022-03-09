@@ -1,0 +1,45 @@
+body {
+    scroll-behavior: smooth;
+}
+
+.card {
+    /* border: 2px solid #000; */
+    min-width: 1300px;
+    margin: 100px 50px;
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.api__img{
+    /* min-width: 236px; */
+    margin: 10px;
+    box-shadow: -8px -1px 3px -3px rgb(100, 100, 100), 0 5px 3px -5px black;
+    transition: all 0.2s ease-in-out;
+    border-radius: 5%;
+}
+.api__img:hover{
+    opacity: 0.8;
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+.section__first {
+    display: flex;
+    /* display: none; */
+    flex-direction: column;
+}
+
+.bottomRight__icon {
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.bottomRight__icon>.btomicon {
+    padding: 30px;
+    border-radius: 100px;
+    margin: -7px 5px;
+    font-size: 20px;
+}

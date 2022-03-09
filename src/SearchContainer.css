@@ -1,0 +1,21 @@
+.search__box{
+    width: 1180px;
+    /* border: 2px solid; */
+    margin-top: 550px;
+    margin-left: 220px;
+    padding: 20px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 20px;
+}
+.search__box>p{
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+.box__{
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    /* border: 2px solid; */
+    margin-left: 10px;
+}

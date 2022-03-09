@@ -1,0 +1,33 @@
+.searchimg__box {
+    margin: 5px;
+}
+
+.searchimg__box>.img__cont>p {
+    position: absolute;
+    color: #fff;
+    margin: 28px 10px;
+    width: 150px;
+    text-align: center;
+    z-index: 1;
+    font-weight: bold;
+}
+
+.bg {
+    background-color: black;
+    height: 80px;
+    width: 180px;
+    position: absolute;
+    border-radius: 20px;
+    opacity: 0.4;
+}
+
+.img__cont>img {
+    height: 80px;
+    width: 180px;
+    border-radius: 20px;
+}
+
+.searchimg__box:hover {
+    opacity: 0.86;
+    cursor: pointer;
+}
