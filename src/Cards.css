@@ -1,4 +1,4 @@
-.container > img {
+.container>img {
     min-width: 236px;
     max-width: 250px;
     min-height: 250px;
@@ -6,10 +6,18 @@
     box-shadow: -8px -1px 3px -3px rgb(100, 100, 100), 0 5px 3px -5px black;
     transition: all 0.2s ease-in-out;
     border-radius: 5%;
+
 }
 
-.container > img:hover {
+.container>img:hover {
     opacity: 0.9;
     transform: scale(1.01);
     cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .container>img {
+        width: 200px;
+        min-height: 350px;
+    }
 }

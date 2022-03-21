@@ -3,7 +3,6 @@ body {
 }
 
 .card {
-    /* border: 2px solid #000; */
     min-width: 1300px;
     margin: 100px 100px;
     margin-top: 70px;
@@ -12,8 +11,7 @@ body {
 }
 
 .api__img {
-    /* min-width: 236px; */
-    margin: 10px;
+    margin: 5px;
     box-shadow: -8px -1px 3px -3px rgb(100, 100, 100), 0 5px 3px -5px black;
     transition: all 0.2s ease-in-out;
     border-radius: 5%;
@@ -44,15 +42,24 @@ body {
     margin: -7px 5px;
     font-size: 20px;
 }
+.extra{
+    display: none;
+}
 
 @media only screen and (max-width: 600px) {
-    .card {
-        width: 100%;
-        margin: autod ;
+    .card {  
+        min-width: 500px;
+        margin: 50px 15px;
     }
     .img__api{
-        width: 1500px;
-        margin: 10px 30px;
-        border: 2px solid #000;
+        width: 520px;
+        margin: 70px 10px;
+     }
+    .api__img{
+        width: 250px;
+        min-height: 350px;
+    }
+    .extra{
+        display: block;
     }
 }

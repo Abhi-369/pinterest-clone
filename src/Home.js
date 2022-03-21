@@ -42,7 +42,7 @@ function Card() {
                         </Link>
 
                         <li><NavLink exact activeClassName="active" className="today" to="/">Home</NavLink></li>
-                        <li><NavLink activeClassName="active" className="today" to="/today">Today</NavLink></li>
+                        <li><NavLink activeClassName="active" className="today right__today" to="/today">Today</NavLink></li>
 
                     </div>
                     <div className="input__search">
@@ -65,7 +65,6 @@ function Card() {
                         </div>
 
                     </div>
-
                 </Nav>
 
 
@@ -88,7 +87,7 @@ function Card() {
 
                     <Cards src="https://source.unsplash.com/random?bike" alt="" />
 
-                    <Cards src="https://source.unsplash.com/random?girl" alt="" />
+                    <Cards src="https://source.unsplash.com/random?beautiful" alt="" />
 
                     <Cards src="https://source.unsplash.com/random?lady" alt="" />
 
@@ -104,37 +103,38 @@ function Card() {
 
                     <Cards src="https://source.unsplash.com/random?fashion" alt="" />
 
-                    <Cards src="https://images.pexels.com/photos/64271/queen-of-liberty-statue-of-liberty-new-york-liberty-statue-64271.jpeg" alt="" />
+                    <Cards src="https://source.unsplash.com/random?uk" alt="" />
 
                     <Cards src="https://source.unsplash.com/random?car" alt="" />
 
-                    <Cards src="https://images.pexels.com/photos/1854129/pexels-photo-1854129.jpeg" alt="" />
+                    <Cards src="https://source.unsplash.com/random?model" alt="" />
 
-                    <Cards src="https://images.pexels.com/photos/2870355/pexels-photo-2870355.jpeg" alt="" />
+                    <Cards src="https://source.unsplash.com/random?employee" alt="" />
 
-                    <Cards src="https://images.pexels.com/photos/2775518/pexels-photo-2775518.jpeg" alt="" />
+                    <Cards src="https://source.unsplash.com/random?party" alt="" />
+                    <Cards src="https://source.unsplash.com/random?club" alt="" />
 
                 </div>
 
                 <div className="section__first">
 
-                    <Cards src="https://cdn.pixabay.com/photo/2020/05/22/07/59/girl-5204296_960_720.jpg" alt="" />
+                    <Cards src="https://source.unsplash.com/random?kid" alt="" />
 
-                    <Cards src="https://cdn.pixabay.com/photo/2020/05/22/07/59/girl-5204280_960_720.jpg" alt="" />
+                    <Cards src="https://source.unsplash.com/random?nature" alt="" />
 
-                    <Cards src="https://images.pexels.com/photos/10152716/pexels-photo-10152716.jpeg" alt="" />
+                    <Cards src="https://source.unsplash.com/random?cream" alt="" />
 
-                    <Cards src="https://images.pexels.com/photos/67552/giraffe-tall-mammal-africa-67552.jpeg" alt="" />
+                    <Cards src="https://source.unsplash.com/random?forest" alt="" />
 
                     <Cards src="https://source.unsplash.com/random?phone" alt="" />
 
-                    <Cards src="https://cdn.pixabay.com/photo/2016/07/22/21/39/girl-1535856_960_720.jpg" alt="" />
+                    <Cards src="https://source.unsplash.com/random?bird" alt="" />
 
                 </div>
 
                 <div className="section__first">
 
-                    <Cards src="https://images.pexels.com/photos/5117913/pexels-photo-5117913.jpeg" alt="" />
+                    <Cards src="https://source.unsplash.com/random?house" alt="" />
 
                     <Cards src="https://source.unsplash.com/random?health" alt="" />
 
@@ -144,29 +144,44 @@ function Card() {
 
                     <Cards src="https://source.unsplash.com/random?business" alt="" />
 
-                    <Cards src="https://cdn.pixabay.com/photo/2016/04/17/22/00/girl-1335663_960_720.jpg" alt="" />
+                    <Cards src="https://source.unsplash.com/random?woman" alt="" />
 
                 </div>
 
                 <div className="section__first">
 
-                    <Cards src="https://images.pexels.com/photos/9940949/pexels-photo-9940949.jpeg" alt="" />
+                    <Cards src="https://source.unsplash.com/random?car" alt="" />
 
                     <Cards src="https://source.unsplash.com/random?female" alt="" />
 
-                    <Cards src="https://cdn.pixabay.com/photo/2020/02/02/17/23/travel-4813653_960_720.jpg" alt="" />
+                    <Cards src="https://source.unsplash.com/random?morning" alt="" />
 
-                    <Cards src="https://images.pexels.com/photos/1964970/pexels-photo-1964970.jpeg" alt="" />
+                    <Cards src="https://source.unsplash.com/random?male" alt="" />
 
                     <Cards src="https://source.unsplash.com/random?garden" alt="" />
 
-                    <Cards src="https://cdn.pixabay.com/photo/2017/09/24/15/23/paris-2782145_960_720.jpg" alt="" />
+                    <Cards src="https://source.unsplash.com/random?boy" alt="" />
 
                 </div>
 
+                <div className="section__first extra">
 
+                    <Cards src="https://source.unsplash.com/random?company" alt="" />
+
+                    <Cards src="https://source.unsplash.com/random?business" alt="" />
+
+                    <Cards src="https://source.unsplash.com/random?canada" alt="" />
+
+                    <Cards src="https://source.unsplash.com/random?girl" alt="" />
+
+                    <Cards src="https://source.unsplash.com/random?flower" alt="" />
+
+                    <Cards src="https://source.unsplash.com/random?drink" alt="" />
+
+                </div>
 
             </div>
+            <h2 style={{textAlign: 'center'}}>Search For More...</h2>
             <div className="bottomRight__icon">
                 <Button variant="text" className="btomicon">
                     <FaPlus />
@@ -184,13 +199,12 @@ const Nav = styled.div`
 position: fixed;
 display: flex;
 align-items:center;
-// border: 2px solid black;
-// border-bottom: 1px solid lightgray;
 top: 0;
 height: 80px;
 width: 100%;
 z-index: 1;
 background-color: #fff;
+
 .left__menu{
     display: flex;
     align-items: center;
@@ -198,10 +212,12 @@ background-color: #fff;
     margin: 10px;
     justify-content: space-between;
     width: 170px;
-    // border: 2px solid red;
-    
+     
     img{
         height: 35px;
+        @media only screen and (max-width: 600px) {
+            margin-right: -30px;
+        }
     }
     .today{
         text-decoration: none;
@@ -209,6 +225,16 @@ background-color: #fff;
         padding: 9px 13px;
         color: black;
         font-weight: bold;
+        @media (max-width: 600px) {
+            padding: 0px;
+          }
+    }
+    .right__today{
+        @media (max-width: 600px) {
+            position: absolute;
+            right: 40px;
+            top: 33px;
+          }
     }
     .today:hover{
         background-color: #efefef;
@@ -232,7 +258,6 @@ background-color: #fff;
 .input__search{
     width: 100%;
     margin: 10px 10px;
-    // border: 2px solid;
     background-color: #efefef;
     border-radius: 30px;
     display: flex;
@@ -240,24 +265,39 @@ background-color: #fff;
     flex: 1;
     padding: 5px;
     padding-left: 10px;
+
+    @media (max-width: 600px) {
+        flex: 0.7;
+        margin-left: -30px;
+        button{
+            margin-left: 50px;
+        }
+      }
+
     
     .search__icon{
         color: darkGray;
         font-size: 18px;
         margin-left: 8px;
     }
-    
     input{
         border: none;
         outline: none;
         width: 80%;
         background-color: #efefef;
         padding: 5px;
+        @media (max-width: 600px) {
+            width: 30%;
+          }
     }
 }
 .right__menu{
     width: 200px;
     margin: 0 20px;
+
+    @media (max-width: 600px) {
+        display: none;
+      }
 
     .icon{
             display: flex;
@@ -265,9 +305,7 @@ background-color: #fff;
             align-items: center;
             padding: 10px;
             font-size: 23px;
-
         }
-
     }
 `
 

@@ -1,15 +1,14 @@
 .to__container {
     max-width: 80vw;
     min-height: 700px;
-    /* border: 1px solid #000; */
     margin: 100px 260px;
 }
 
 .title {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
 }
 
 .title>.date>p {
@@ -24,7 +23,6 @@
 }
 
 .img__container {
-    /* border: 1px solid #000; */
     display: flex;
     flex-wrap: wrap;
     width: 80vw;
@@ -42,6 +40,7 @@
     text-align: center;
     margin-top: -10px;
 }
+
 .bottomRight__icon {
     display: flex;
     flex-direction: column;
@@ -55,4 +54,25 @@
     border-radius: 100px;
     margin: -7px 5px;
     font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .to__container {
+        width: 100%;
+        height: 100%;
+        margin: 100px 0px;
+        margin-right: 20px;
+    }
+    .img__container{
+        width: 100%;
+        margin: 0px 20px;
+    }
+    .title{
+        width: 100%;
+        margin: 0px 45px;
+    }
+    .bottom__info{
+        width: 100%;
+        margin: 40px;
+    }
 }

@@ -96,9 +96,9 @@ function Today() {
 
                     <TodayCard Img_src1="https://images.pexels.com/photos/6230961/pexels-photo-6230961.jpeg" Img_src2="https://images.pexels.com/photos/1485548/pexels-photo-1485548.jpeg" Img_src3="https://images.pexels.com/photos/3806690/pexels-photo-3806690.jpeg" title_1="Happy Monday!" title_2="Colourful Affirmation for a Colourful Life" />
 
-                    <TodayCard Img_src1="https://images.pexels.com/photos/341970/pexels-photo-341970.jpeg" Img_src2="https://images.pexels.com/photos/1382734/pexels-photo-1382734.jpeg" Img_src3="https://images.pexels.com/photos/1557843/pexels-photo-1557843.jpeg" title_1="Style Update" title_2="Say Hello Mini Skirts!" />
+                    <TodayCard Img_src1="https://images.pexels.com/photos/341970/pexels-photo-341970.jpeg" Img_src2="https://images.pexels.com/photos/1382734/pexels-photo-1382734.jpeg" Img_src3="https://source.unsplash.com/random?miniskirt" title_1="Style Update" title_2="Say Hello Mini Skirts!" />
 
-                    <TodayCard Img_src1="https://images.pexels.com/photos/3323163/pexels-photo-3323163.jpeg" Img_src2="https://images.pexels.com/photos/2681751/pexels-photo-2681751.jpeg" Img_src3="https://images.pexels.com/photos/3220360/pexels-photo-3220360.jpeg" title_1="Get Creative" title_2="Fashion Illustartion Ideas" />
+                    <TodayCard Img_src1="https://source.unsplash.com/random?cutegirl" Img_src2="https://images.pexels.com/photos/2681751/pexels-photo-2681751.jpeg" Img_src3="https://source.unsplash.com/random?skirt" title_1="Get Creative" title_2="Fashion Illustartion Ideas" />
 
 
                 </div>
@@ -111,13 +111,13 @@ function Today() {
 
                 <div className="img__container">
 
-                    <TodayCard Img_src1="https://images.pexels.com/photos/9418783/pexels-photo-9418783.jpeg" Img_src2="https://images.pexels.com/photos/2150622/pexels-photo-2150622.jpeg" Img_src3="https://images.pexels.com/photos/2270078/pexels-photo-2270078.jpeg" title_1="Shaadi Style" title_2="Fun Sarees for a Wedding Guest" />
+                    <TodayCard Img_src1="https://images.pexels.com/photos/2150622/pexels-photo-2150622.jpeg" Img_src2="https://source.unsplash.com/random?wedding" Img_src3="https://images.pexels.com/photos/2270078/pexels-photo-2270078.jpeg" title_1="Shaadi Style" title_2="Fun Sarees for a Wedding Guest" />
 
-                    <TodayCard Img_src1="https://images.pexels.com/photos/8523820/pexels-photo-8523820.jpeg" Img_src2="https://images.pexels.com/photos/6169695/pexels-photo-6169695.jpeg" Img_src3="https://images.pexels.com/photos/2923922/pexels-photo-2923922.jpeg" title_1="Style Update" title_2="MeansWear Trends" />
+                    <TodayCard Img_src1="https://source.unsplash.com/random?man" Img_src2="https://images.pexels.com/photos/6169695/pexels-photo-6169695.jpeg" Img_src3="https://images.pexels.com/photos/2923922/pexels-photo-2923922.jpeg" title_1="Style Update" title_2="MeansWear Trends" />
 
-                    <TodayCard Img_src1="https://images.pexels.com/photos/3323163/pexels-photo-3323163.jpeg" Img_src2="https://images.pexels.com/photos/2681751/pexels-photo-2681751.jpeg" Img_src3="https://images.pexels.com/photos/3220360/pexels-photo-3220360.jpeg" title_1="Never too late to build a good habit" title_2="30 day challenges" />
+                    <TodayCard Img_src1="https://source.unsplash.com/random?habit" Img_src2="https://source.unsplash.com/random?challenge" Img_src3="https://source.unsplash.com/random?hard" title_1="Never too late to build a good habit" title_2="30 day challenges" />
 
-                    <TodayCard Img_src1="https://images.pexels.com/photos/2168975/pexels-photo-2168975.jpeg" Img_src2="https://images.pexels.com/photos/64271/queen-of-liberty-statue-of-liberty-new-york-liberty-statue-64271.jpeg" Img_src3="https://images.pexels.com/photos/698849/pexels-photo-698849.jpeg" title_1="World Travelling" title_2="Famous Places" />
+                    <TodayCard Img_src1="https://source.unsplash.com/random?uk" Img_src2="https://source.unsplash.com/random?usa" Img_src3="https://source.unsplash.com/random?australia" title_1="World Travelling" title_2="Famous Places" />
 
 
                 </div>
@@ -130,11 +130,11 @@ function Today() {
 
                 <div className="img__container">
 
-                    <TodayCard Img_src1="https://images.pexels.com/photos/712651/pexels-photo-712651.jpeg" Img_src2="https://images.pexels.com/photos/157757/wedding-dresses-fashion-character-bride-157757.jpeg" Img_src3="https://images.pexels.com/photos/265722/pexels-photo-265722.jpeg" title_1="Wedding Guide" title_2="Perfect Bridal Entry Ideas" />
+                    <TodayCard Img_src1="https://source.unsplash.com/random?bridal" Img_src2="https://images.pexels.com/photos/157757/wedding-dresses-fashion-character-bride-157757.jpeg" Img_src3="https://source.unsplash.com/random?marriage" title_1="Wedding Guide" title_2="Perfect Bridal Entry Ideas" />
 
-                    <TodayCard Img_src1="https://images.pexels.com/photos/341970/pexels-photo-341970.jpeg" Img_src2="https://images.pexels.com/photos/1382734/pexels-photo-1382734.jpeg" Img_src3="https://images.pexels.com/photos/1557843/pexels-photo-1557843.jpeg" title_1="You are worth it" title_2="Affirmations to be your best self" />
+                    <TodayCard Img_src1="https://source.unsplash.com/random?workout" Img_src2="https://source.unsplash.com/random?gym" Img_src3="https://source.unsplash.com/random?exercise" title_1="You are worth it" title_2="Do Exercise to be your best self" />
 
-                    <TodayCard Img_src1="https://images.pexels.com/photos/3323163/pexels-photo-3323163.jpeg" Img_src2="https://images.pexels.com/photos/2681751/pexels-photo-2681751.jpeg" Img_src3="https://images.pexels.com/photos/3220360/pexels-photo-3220360.jpeg" title_1="Pink is everyone" title_2="More men should wear Pink" />
+                    <TodayCard Img_src1="https://source.unsplash.com/random?lazy" Img_src2="https://source.unsplash.com/random?girlface" Img_src3="https://source.unsplash.com/random?salon" title_1="Sunday Feeling !" title_2="Chill Weekend Aesthetic" />
 
 
                 </div>
@@ -174,6 +174,7 @@ height: 80px;
 width: 100%;
 z-index: 1;
 background-color: #fff;
+
 .left__menu{
     display: flex;
     align-items: center;
@@ -189,7 +190,7 @@ background-color: #fff;
     .today{
         text-decoration: none;
         list-style: none;
-        padding: 9px 13px;
+        padding: 9px 7px;
         color: black;
         font-weight: bold;
     }
@@ -223,6 +224,10 @@ background-color: #fff;
     flex: 1;
     padding: 5px;
     padding-left: 10px;
+
+    @media only screen and (max-width: 600px) {
+        display: none;
+    }
     
     .search__icon{
         color: darkGray;
@@ -241,6 +246,10 @@ background-color: #fff;
 .right__menu{
     width: 200px;
     margin: 0 20px;
+
+    @media only screen and (max-width: 600px) {
+        display: none;
+    }
 
     .icon{
             display: flex;

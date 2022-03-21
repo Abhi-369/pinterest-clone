@@ -41,3 +41,17 @@
     cursor: pointer;
     border-radius: 5px;
 }
+
+@media only screen and (max-width: 600px) {
+    .img__box{
+        width: 100vw;
+        min-height: 280px;
+    }
+    .img__box>.img__row>img{
+        height: 100px;
+        width: 100px;
+    }
+    .headline > h2{
+        font-size: 20px;
+    }
+}
