@@ -1,7 +1,7 @@
 import './App.css';
 import Home from './Home';
 import Today from './Today';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 
 function App() {
@@ -9,10 +9,10 @@ function App() {
     // BEM
     <div className="App">
       <Router>
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/today" component={Today} />
-        </Switch>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/today" element={<Today />} />
+        </Routes>
       </Router>
 
     </div>

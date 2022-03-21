@@ -9,7 +9,7 @@
 }
 
 .container > img:hover {
-    opacity: 0.8;
-    transform: scale(1.04);
+    opacity: 0.9;
+    transform: scale(1.01);
     cursor: pointer;
 }

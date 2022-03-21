@@ -29,7 +29,6 @@ function Card() {
 
     }
 
-
     return (
 
         <>
@@ -72,12 +71,15 @@ function Card() {
 
             </div>
 
-            {
-                result.map((photo) => (
+            <div className="img__api">
+                {
+                    result.map((photo) => (
 
-                    <img className="api__img" src={photo.urls.small} />
-                ))
-            }
+                        <img className="api__img" src={photo.urls.small} />
+                    ))
+                }
+            </div>
+
             <div className="card">
 
                 <div className="section__first">
@@ -162,23 +164,6 @@ function Card() {
 
                 </div>
 
-                <div className="section__first">
-
-                    <Cards src="https://images.pexels.com/photos/1183266/pexels-photo-1183266.jpeg" alt="" />
-
-                    <Cards src="https://source.unsplash.com/random?friends" alt="" />
-
-                    <Cards src="https://images.pexels.com/photos/1342609/pexels-photo-1342609.jpeg" alt="" />
-
-                    <Cards src="https://source.unsplash.com/random?hug" alt="" />
-
-                    <Cards src="https://source.unsplash.com/random?love" alt="" />
-
-                    <Cards src="https://images.pexels.com/photos/1995730/pexels-photo-1995730.jpeg" alt="" />
-
-                    <Cards src="https://source.unsplash.com/random?lion" alt="" />
-
-                </div>
 
 
             </div>
@@ -194,8 +179,6 @@ function Card() {
         </>
     )
 }
-
-
 
 const Nav = styled.div`
 position: fixed;

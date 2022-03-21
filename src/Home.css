@@ -5,27 +5,28 @@ body {
 .card {
     /* border: 2px solid #000; */
     min-width: 1300px;
-    margin: 100px 50px;
+    margin: 100px 100px;
     margin-top: 70px;
     display: flex;
     flex-wrap: wrap;
 }
-.api__img{
+
+.api__img {
     /* min-width: 236px; */
     margin: 10px;
     box-shadow: -8px -1px 3px -3px rgb(100, 100, 100), 0 5px 3px -5px black;
     transition: all 0.2s ease-in-out;
     border-radius: 5%;
 }
-.api__img:hover{
-    opacity: 0.8;
-    transform: scale(1.04);
+
+.api__img:hover {
+    opacity: 0.9;
+    transform: scale(1.01);
     cursor: pointer;
 }
 
 .section__first {
     display: flex;
-    /* display: none; */
     flex-direction: column;
 }
 
@@ -42,4 +43,16 @@ body {
     border-radius: 100px;
     margin: -7px 5px;
     font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        width: 100%;
+        margin: autod ;
+    }
+    .img__api{
+        width: 1500px;
+        margin: 10px 30px;
+        border: 2px solid #000;
+    }
 }
